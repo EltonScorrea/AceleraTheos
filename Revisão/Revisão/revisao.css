@@ -1,0 +1,61 @@
+.layout {
+    display: flex;
+    width: 50%;
+    /* height: 400px; */
+    background: rgb(236, 27, 27);
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    background: coral;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.header p {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+.content form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.content input {
+    height: 32px;
+    width: 100%;
+}
+
+.content label {
+    float: left;
+    color: white;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content button {
+    background: #864949;
+    color: white;
+    width: 100%;
+    height: 32px;
+    border: none;
+    margin-top: 20px;
+}

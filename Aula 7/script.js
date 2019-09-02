@@ -20,9 +20,9 @@
 
 function media(){
     var alunoNota;
-    var nota1 = 40; 
-    var nota2 = 60;
-    var nota3 = 75;
+    var nota1 = 90; 
+    var nota2 = 90;
+    var nota3 = 90;
     alunoNota === (nota1+nota2+nota3) / 3 ;
 
 if (alunoNota >= 90) {
